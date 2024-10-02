@@ -204,6 +204,21 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+.border{
+
+ width: 700px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+
+  background: color gray;
+  border-radius: 5px;
+  padding: 30px 10px;
+
+}
+
 
 /* ===== STATE STYLES ======= */
 
