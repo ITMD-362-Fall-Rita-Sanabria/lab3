@@ -221,8 +221,12 @@ label {
 
 }
 
+h1{
+  font-size: 30px;
+}
+
 #input-age-verification label{
-  font-size: 15px;
+  font-size: 18px;
   color: black;
 }
 
