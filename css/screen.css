@@ -57,6 +57,7 @@ button,
 html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
+
   -webkit-appearance: button; /* 2 */
 }
 
@@ -200,6 +201,7 @@ html {
 
 label {
   display: block;
+  align-items: center;
 }
 
 /* ===== LAYOUT STYLES ====== */
@@ -207,18 +209,34 @@ label {
 .border{
 
  width: 700px;
-  height: 300px;
+  height: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
 
-  background: color gray;
+  background-color: grey;
+  border-radius: 5px;
+  padding: 30px 10px;
+
+}
+
+.emailborder{
+
+ width: 700px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+
+  background-color: lightgrey;
   border-radius: 5px;
   padding: 30px 10px;
 
 }
 
 
-/* ===== STATE STYLES ======= */
 
+/* ===== STATE STYLES ======= */
