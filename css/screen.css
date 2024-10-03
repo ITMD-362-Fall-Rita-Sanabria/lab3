@@ -222,10 +222,12 @@ label {
 }
 
 h1{
+  font-family: "Helvetica Neue","Segoe UI", Arial, sans-serif;
   font-size: 30px;
 }
 
-p{
+form p, input, label{
+  font-family:  "Georgia", "Times New Roman", "Times". serif;
   font-size: 25px;
 }
 #input-age-verification label{
