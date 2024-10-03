@@ -278,6 +278,11 @@ label {
   border: 5px grey;
 
   padding: 10px 15px;
+}
 
+  #input-submit input[value="Subscribe"]:hover{
+  backgroundcolor: lightgrey;
+  color: grey;
+  border: 1px solid darkgrey;
  
  }
